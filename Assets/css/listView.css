@@ -1,0 +1,175 @@
+
+.navbar{
+    background-color: #496CE5;
+    height: 50px;
+}
+.page-title{
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.btns{
+    border: none;
+    background: none;
+}
+
+.btns-add-card{
+    height: 50px;
+    width: 270px;
+}
+
+.add-card{
+    height: 50px;
+    background-color: #2D3348;
+}
+
+.add-card:hover{
+    transition: all .2s ease-in-out;
+    background-color: #252a3b;
+}
+.card{
+    border: 1px solid #5643CC;
+    width: 258px;
+    height: 80px;
+    background-color: #2D3348;
+}
+.card:hover{
+    transition: all .2s ease-in-out;
+    background-color: #252a3b;
+}
+.text-normal{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.div-title4{
+    border-radius: 7px 7px 0 0;
+    border-bottom: 5px solid #DC3545;
+    background-color: #2D3348;
+}
+.div-title3{
+    border-radius: 7px 7px 0 0;
+    border-bottom: 5px solid #FFC107;
+    background-color: #2D3348;
+}
+.div-title2{
+    border-radius: 7px 7px 0 0;
+    border-bottom: 5px solid #0DCAF0;
+    background-color: #2D3348;
+}
+.div-title1{
+    border-radius: 7px 7px 0 0;
+    border-bottom: 5px solid #0D6EFD;
+    background-color: #2D3348;
+}
+
+.dropdown-menu{
+    background-color: #2D3348;
+    border: 1px solid #5643CC;
+    width: 350px;
+}
+.drop-style{
+    width: 250px !important;
+}
+.modal-style{
+    background-color: #2D3348;
+}
+
+.drag-hover1{
+    background-color: rgba(220, 53, 69, 0.5) !important;
+}
+.drag-hover2{
+    background-color: rgba(255, 193, 7, 0.5) !important;
+}
+.drag-hover3{
+    background-color: rgba(13, 202, 240, 0.5) !important;
+}
+.drag-hover4{
+    background-color: rgba(13, 110, 253, 0.5) !important;
+}
+
+.areas{
+    background-color: #232838;
+}
+.areas-header{
+    height: 50px;
+}
+.area1{
+    transition: none;
+    width: 270px;
+    height: 500px;
+    overflow-x: none;
+    overflow-y: scroll;
+    overflow: hidden;
+}
+.area2{
+    transition: none;
+    width: 270px;
+    height: 500px;
+    overflow-x: none;
+    overflow-y: scroll;
+    overflow: hidden;
+}
+.area3{
+    transition: none;
+    width: 270px;
+    height: 500px;
+    overflow-x: none;
+    overflow-y: scroll;
+    overflow: hidden;
+}
+.area4{
+    transition: none;
+    width: 270px;
+    height: 500px;
+    overflow-x: none;
+    overflow-y: scroll;
+    overflow: hidden;
+}
+.scrollX{
+    height: 630px;
+    overflow-x: scroll;
+    overflow: hidden;
+}
+
+*::-webkit-scrollbar {
+    position: absolute;
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(0, 34, 255, 0);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #8257E6;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 8, 63);
+}
+
+
+@media(max-width: 660px) {
+    .area1{
+        overflow: auto;
+        height: 450px;
+    }
+    .area2{
+        overflow: auto;
+        height: 450px;
+    }
+    .area3{
+        overflow: auto;
+        height: 450px;
+    }
+    .area4{
+        overflow: auto;
+        height: 450px;
+    }
+    .scrollX{
+        overflow: auto;
+        height: 600px;
+    }
+}
