@@ -1,3 +1,5 @@
+<h1 align="center">To Do List</h1>
+
 Esse projeto consiste em um organizador de tarefas usando o formato KanBan.
 
 Esse projeto foi realizado com o intuito de aprender como funciona a estrutura MVC(Model, View, Controller)
