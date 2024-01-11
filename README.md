@@ -4,12 +4,12 @@ Esse projeto foi realizado com o intuito de aprender como funciona a estrutura M
 usando como linguagem base o PHP, aproveitando ainda estudei como funciona o básico de um sistema de cadastro e login de usuários,
 e também como funciona o CRUD(Create, Read, Update, Delete) com o PHP e SQL.
 
-Para realiza-lo eu utilizei no front:
--HTML,
--Bootstrap 5,
--CSS,
--Javascript.
+Para realiza-lo eu utilizei no front:<br>
+-HTML,<br>
+-Bootstrap 5,<br>
+-CSS,<br>
+-Javascript.<br>
 
-E no back eu utilizei:
--SQL,
--PHP.
+E no back eu utilizei:<br>
+-SQL,<br>
+-PHP.<br>
