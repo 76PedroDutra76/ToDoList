@@ -1,6 +1,6 @@
 <?php
 
-define("BASE_URL", "http://localhost/trabalhosPHP/ToDoList/");
+define("BASE_URL", "http://localhost/ToDoList/");
 define("TEMPLATE", "default");
 define("TEMPLATE_ADMIN", "admin");
 

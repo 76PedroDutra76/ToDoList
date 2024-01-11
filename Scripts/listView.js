@@ -20,9 +20,6 @@ document.querySelector('.area4').addEventListener('dragover', dragOverArea4);
 document.querySelector('.area4').addEventListener('dragleave', dragOutArea4);
 document.querySelector('.area4').addEventListener('drop', dropArea4);
 
-
-
-
 //functions dos itens
 function dragStart(e) {
     e.currentTarget.classList.add('dragging');
@@ -114,6 +111,7 @@ function dropArea4(e) {
     console.log(dragItem);
 
     let id = $(dragItem).attr('id')
+
 
     areaUpdateTask(id, 1);
 
